@@ -1,2 +1,41 @@
 # -
 自适应九宫格
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>九宫格</title>
+    <style>
+        * { padding: 0; margin: 0; }
+        .main {
+            background-color: #fff;
+            width: 70%;
+            padding-bottom: 90%;
+            margin: 0 auto;
+        }
+        .main div {
+            width: 31.3%;
+            padding-bottom: 31.3%;
+            background-color: orange;
+            border-radius: 3%;
+            float: left;
+            margin: 1%;
+        }
+    </style>
+</head>
+<body>
+<div class="main ">
+    <div ></div>
+    <div ></div>
+    <div ></div>
+    <div ></div>
+    <div ></div>
+    <div ></div>
+    <div ></div>
+    <div ></div>
+    <div ></div>
+</div>
+</body>
+</html>
